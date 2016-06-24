@@ -1,0 +1,1 @@
+This repository holds my live resume and portfolio to be updated during my time at Codeup and beyond!
