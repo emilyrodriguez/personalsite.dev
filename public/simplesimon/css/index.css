@@ -1,0 +1,72 @@
+h1 {
+	text-align: center;
+	color: #FFF;
+	font-family: 'Prompt', sans-serif;
+}
+p, #start {
+	font-family: 'Prompt', sans-serif;
+}
+img#alison,img#sarah,img#cosima,img#helena {
+	opacity: .7;
+}
+.box {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	position: absolute;
+	display: inline-block;
+	opacity: 1;
+}
+#red {
+	background-color: #3C1E24;
+}
+
+#blue {
+	background-color: #223055;
+	right: 0;
+}
+
+#green {
+	background-color: #41756A;
+	bottom: 0;
+}
+
+#yellow {
+	background-color: #959050;
+	right: 0;
+	bottom: 0;
+}
+#controls {
+	width: 150px;
+	height: 100px;
+	background-color: black;
+	opacity: .8;
+	color: #FFF;
+	position: absolute;
+	top: 300px;
+	text-align: center;
+	margin: 5px;
+
+}
+li {
+	list-style-type: none;
+	text-align: center;
+}
+img {
+	width: 200px;
+	height: 200px;
+}
+#container {
+	position: relative;
+	margin: 100px auto 0 auto;
+	width: 440px;
+	height: 440px;
+}
+
+html {
+	background-image: url("/simplesimon/img/theme.jpg");
+    z-index: -1;
+    position: relative;
+    background-size: contain;
+    background-size: 100% 100%;
+}
