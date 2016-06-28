@@ -64,7 +64,7 @@ img {
 }
 
 html {
-	background-image: url("/web/simplesimon/img/theme.jpg");
+	background-image: url("/simplesimon/img/theme.jpg");
     z-index: -1;
     position: relative;
     background-size: contain;
