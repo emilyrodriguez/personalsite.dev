@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript Calculator</title>
+		<link rel="stylesheet" href="/web/calculator/css/calculator.css">
+		<link href='https://fonts.googleapis.com/css?family=Orbitron:500' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<h1>JavaScript Calculator</h1>
+		<div id="calculator-body">
+			<div class="row" id="display">
+				<input type="text" id="leftSide" readonly></input>
+				<input type="text" id="operator" readonly></input>
+				<input type="text" id="rightSide" readonly></input>
+			</div>
+
+			<div class="keypad">
+				<div id="row-one">
+					<button type="button" class="btn btn-info btn-m" id="clear-bttn" value="C">C</button>
+					<button type="button" class="btn btn-info btn-m signs" id="percent-bttn" value="%">%</button>
+					<button type="button" class="btn btn-info btn-m signs" id="exponent-bttn" value="^">^</button>
+					<button type="button" class="btn btn-info btn-m signs" id="sqrt-bttn" value="sqrt">sqrt</button>
+
+				</div>
+				<div id="row-two">
+					<button type="button" class="btn btn-info btn-m digits" value="7">7</button>
+					<button type="button" class="btn btn-info btn-m digits" value="8">8</button>
+					<button type="button" class="btn btn-info btn-m digits" value="9">9</button>
+					<button type="button" class="btn btn-info btn-m signs" value="/">/</button>
+				</div>
+	
+				<div id="row-three">
+					<button type="button" class="btn btn-info btn-m digits" value="4">4</button>
+					<button type="button" class="btn btn-info btn-m digits" value="5">5</button>
+					<button type="button" class="btn btn-info btn-m digits" value="6">6</button>
+					<button type="button" class="btn btn-info btn-m signs" value="*">*</button>
+				</div>
+	
+				<div id="row-four">
+					<button type="button" class="btn btn-info btn-m digits" value="1">1</button>
+					<button type="button" class="btn btn-info btn-m digits" value="2">2</button>
+					<button type="button" class="btn btn-info btn-m digits" value="3">3</button>
+					<button type="button" class="btn btn-info btn-m signs" value="+">+</button>
+				</div>
+	
+				<div id="row-five">
+					<button type="button" class="btn btn-info btn-m digits" value="0">0</button>
+					<button type="button" class="btn btn-info btn-m digits" value=".">.</button>
+					<button type="button" class="btn btn-info btn-m" id="equals" value="=">=</button>
+					<button type="button" class="btn btn-info btn-m signs" value="-">-</button>
+				</div>
+				</div>
+
+			</div>
+		</div>
+		<script src="/web/calculator/js/calculator.js"></script>
+	</body>
+</html>
