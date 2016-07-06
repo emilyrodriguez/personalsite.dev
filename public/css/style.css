@@ -112,9 +112,10 @@ ul.address li ul.address-text li a:hover{
     position: fixed;
     display: none;
     color: #FFF;
-    padding: 5px;
+    padding: 0;
     z-index: 5;
 }
+
 #menu-floating-menu li {
     list-style-type: none;
     display: inline;
@@ -128,7 +129,7 @@ ul.address li ul.address-text li a:hover{
 ul#menu-floating-menu.menu{
     width: 100%;
     height: 50px;
-    margin: -5px;
+    margin: 0;
     padding: 0px;
     font-size: 1em;
     font-family: 'Roboto Condensed', sans-serif;
