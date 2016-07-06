@@ -31,16 +31,15 @@ ul,label{
 body a:hover{
 	text-decoration:none;
 }
-/*--baner--*/
+/*--banner--*/
 .banner {
-	background:url(../images/pexels-photo-60626.jpg)no-repeat center 0px;
-	-webkit-background-size:cover;
+	background:url(../images/pexels-photo-60626-2.jpg)no-repeat center 0px;
+	-webkit-background-size:contain;
 	background-size:cover;
-	-moz-background-size:cover;
+	-moz-background-size:contain;
 	position: relative;
 }
 .banner-info{
-	/*background: url(../images/dott.png)repeat 0px 0px;*/
 	padding: 4em 0;
 }
 .header-left img {
@@ -106,37 +105,51 @@ ul.address li ul.address-text li a:hover{
     color: #0FF;
 }
 /*--//banner-top--*/
-/*--top-nav--*/
-.top-nav {
-    background: #008B8B;
+#floating-nav-content {
+    top: 0;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    display: none;
+    color: #FFF;
+    padding: 5px;
+    z-index: 5;
 }
-.nav > li {
-    display: inline-block;
+#menu-floating-menu li {
+    list-style-type: none;
+    display: inline;
+    overflow: auto;
+    position: relative;
 }
-ul.nav.navbar {
+#menu-floating-menu a {
+    color: #FFF;
+    margin-right: 30px;
+}
+ul#menu-floating-menu.menu{
+    width: 100%;
+    height: 50px;
+    margin: -5px;
+    padding: 0px;
+    font-size: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #008B8B;
+}
+
+.navbar-collapse.collapse {
+    padding: 0;
     margin: 0;
-    text-align: center;
+    width: 100%;
 }
-ul.nav.navbar li a {
-    color: #fff;
-    padding: 1em 2em;
-    font-size: 1.2em;
-    font-family: 'Overlock', cursive;
+
+.top-nav.wow {
+    overflow: hidden;
 }
-ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
-    color: #008B8B;
-    background: #fff;
-	-webkit-transform: scale(0.8);
-	-moz-transform: scale(0.8);
-    transform: scale(0.8);
-	-o-transform: scale(0.8);
-	-ms-transform: scale(0.8);
-}
-/*--//top-nav--*/
-/*--about--*/
+
+/*--top-nav--*/
 .about,.work,.education,.skills,.portfolio,.contact{
-	padding:6em 0;
+	padding:5em 0;
 }
+
 h3.title {
     font-size: 4em;
     text-align: center;
@@ -146,7 +159,7 @@ h3.title {
 	margin-bottom: 1em;
 }
 p, li {
-    font-size: 1em;
+    font-size: 1.5em;
     color: #999;
     line-height: 1.8em;
 }
@@ -155,7 +168,7 @@ li {
 
 }
 h6 {
-    font-size: 1em;
+    font-size: 1.5em;
     color: #999;
     line-height: 1.8em;
     text-align: left;
@@ -625,6 +638,7 @@ div#contact.welcome.contact {
     padding: 2em 0;
     text-align: center;
     background: #1F1F1F;
+    margin-bottom: -80px;
 }
 .footer p {
     color: #fff;
@@ -738,7 +752,7 @@ h3.title {
 ul.address li ul.address-text li {
     font-size: 1.1em;
 }
-ul.nav.navbar li a {
+ul.nav.menu li a {
     padding: 1em 1.5em;
 }
 h3.title {
@@ -832,20 +846,21 @@ h3.title {
 .banner-info {
     padding: 3em 0;
 }
-}
 @media(max-width:767px){
-.navbar-toggle {
+.menu-toggle {
     float: none;
     width: 100%;
     text-align: center;
+    padding: 10px;
     margin: 0;
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: #fff;
+    background-color: #008B8B;
 }
 .nav > li {
     display: block;
 }
-ul.nav.navbar li a {
+ul.nav.menu li a {
     padding: 0.8em 1.5em;
     font-size: 1.1em;
 }
@@ -1086,7 +1101,7 @@ ul.address li ul.address-text li {
 ul.address li ul.address-text li:nth-child(1) {
     width: 25%;
 }
-ul.nav.navbar li a {
+ul.nav.menu li a {
     padding: 0.6em 1.5em;
     font-size: 1em;
 }
@@ -1117,4 +1132,4 @@ h3.title {
 }
 
 }
-/*--//responsive-design---*/
+/*--//responsive-design---

@@ -6,8 +6,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
 <html>
-<head>
-<title>Emily Rodriguez Portfolio</title>
+	<head>
+		<title>Emily Rodriguez Portfolio</title>
 <!--mobile apps-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -17,7 +17,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--Custom Theme files-->
 <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
 <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
-<link rel="stylesheet" href="css/swipebox.css">
 <!--//Custom Theme files-->
 <!--js-->
 <script src="js/jquery-1.11.1.min.js"></script> 
@@ -38,8 +37,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		});
 </script>
 <!--//end-smooth-scrolling-->
-</head>
-<body>
+	</head>
+	<body>
 	<!--banner-->
 	<div id="home" class="banner">
 		<div class="banner-info">
@@ -61,7 +60,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li>
 							<ul class="address-text">
 								<li><b>PHONE</b></li>
-								<li>210-459-3305</li>
+								<li>(210) 816-1057</li>
 							</ul>
 						</li>
 						<li>
@@ -97,29 +96,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!--//banner-->
 	<!--top-nav-->
 	<div class="top-nav wow">
-		<div class="container">
-			<div class="navbar-header logo">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					Menu
-				</button>
-			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
+		<!-- <div class="container"> -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<div class="menu">
-					<ul class="nav navbar">
-						<li><a href="#about" class="scroll">About</a></li>
-						<li><a href="#work" class="scroll">Experience</a></li>
-						<li><a href="#education" class="scroll">Education</a></li>
-						<li><a href="#skills" class="scroll">Skills</a></li>
-						<li><a href="#projects" class="scroll">My Projects</a></li>
-						<li><a href="#contact" class="scroll">Contact</a></li>
-						<!-- <li><a href="ajax_blog.html" class="scroll" target="_blank">Blog</a></li> -->
-					</ul>
-					<div class="clearfix"> </div>
+				<div id="floating-nav-content">
+   					<div class="floating-nav">
+    			  		<ul id="menu-floating-menu" class="menu">
+    			  		   <li><a href="#about" class="scroll">About</a></li>
+    			  		   <li><a href="#work" class="scroll">Experience</a></li>
+    			  		   <li><a href="#education" class="scroll">Education</a></li>
+    			  		   <li><a href="#skills" class="scroll">Skills</a></li>
+    			  		   <li><a href="#projects" class="scroll">My Projects</a></li>
+    			  		   <li><a href="#contact" class="scroll">Contact</a></li>
+    			  		</ul>
+   					</div>
 				</div>
 			</div>
-		</div>
-	</div>	
+		<!-- </div> -->
+	</div>
 	<!--//top-nav-->
 	<!--about-->
 	<div id="about" class="about">
@@ -127,13 +120,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<h3 class="title"> About Me</h3>
 			<div class="col-md-8 about-left">
 				<p>My name is Emily Rodriguez and I am an aspiring web developer and former journalist. I decided to make the change from journalism to programming thanks to the evolving technical aspects of the communications field. I began coding to pick up a few skills to give me a competitive edge but ended up falling in love with it. I enrolled in Codeup, a 16-week developer bootcamp to enhance my skills and change my career path. The only thing better then seeing your name in print after completing a hard-earned story is seeing my code come to life. I have a passion for creating positive user experiences and make it a point to ensure ease of use and understanding. My understanding of both front end and back end development guarantees technical feasibility of UI/UX designs and that my code is and optimized for speed and scalability.</p>
-				<p>I graduated from Texas A&M University San Antonio in 2015 where I majored in communications and minored in criminology. I was fortunate to be employed as an editorial assistant at the <i>San Antonio Express-News</i>, a daily major-metro newspaper. My varied work history has given me an array of transferrable skills. I have 3 years of experience in journalism and public relations. During this time I’ve learned to work within tight deadlines, form contacts in the community and manage multiple projects at once.</p>
+				<p>I graduated from Texas A&M University San Antonio in 2015 where I majored in communications. I was fortunate to be employed as an editorial assistant at the <i>San Antonio Express-News</i>, a daily major-metro newspaper. My varied work history has given me an array of transferrable skills. I have 3 years of experience in journalism and public relations. During this time I’ve learned to work within tight deadlines, form contacts in the community and manage multiple projects at once.</p>
 				<p></p>
 			</div>
-			<div id="map">
+			<!-- <div id="map">
 			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApZ3SJbryjfJ2sjpyx-fIephHJU3D02Cs"></script>
 			<script type="text/javascript" src="/Users/Emily/vagrant-lamp/sites/personalsite.dev/public/js/aboutmemap.js"></script>
-			</div>
+			</div> -->
 		</div>
 	</div>
 	<!--//about-->
@@ -373,14 +366,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				});		
 			</script>
 			<!--//ResponsiveTabs-->
-			<!-- swipe box js -->
-			<script src="js/jquery.swipebox.min.js"></script> 
-				<script type="text/javascript">
-					jQuery(function($) {
-						$(".swipebox").swipebox();
-					});
-			</script>
-			<!-- //swipe box js -->
 		</div>
 	</div>
 	<!--//portfolio-->
@@ -395,12 +380,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<p>San Antonio, Texas 78205</p>
 					</div>
 					<div class="address-right">
-						<p>Call me: (210)459-3305</p>
+						<p>Call me: (210)816-1057</p>
 						<p>E-mail: <a href="mailto:info@example.com">rodriguez.emily1993@gmail.com</a></p>
 					</div>
 					<div class="clearfix"></div>
 					<div class="contact-form">
-						<form action="#" method="post">
+						<form action="mailto:rodriguez.emily1993@gmail.com" method="post">
 							<input type="text" name="Name" placeholder="Name" required="">
 							<input class="email" name="Email" type="text" placeholder="Email" required="">
 							<input class="phone" name="phone" type="text" placeholder="Phone" required="">
@@ -422,24 +407,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!--//footer-->
 	<!--smooth-scrolling-of-move-up-->
-	<script type="text/javascript">
-		$(document).ready(function() {
-		
-			var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-			};
+		<script type="text/javascript">
+			$(document).ready(function() {
 			
-			$().UItoTop({ easingType: 'easeOutQuart' });
-			
-		});
-	</script>
-	<!--//smooth-scrolling-of-move-up-->
-	<!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/bootstrap.js"></script>
-</body>
+				var defaults = {
+					containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+				};
+				
+				$().UItoTop({ easingType: 'easeOutQuart' });
+				
+			});
+		</script>
+		<!--//smooth-scrolling-of-move-up-->
+		<!-- Bootstrap core JavaScript
+    	================================================== -->
+    	<!-- Placed at the end of the document so the pages load faster -->
+    	<script src="js/bootstrap.js"></script>
+    	<script src="js/floatingnav.js"></script>
+	</body>
 </html>
