@@ -124,13 +124,12 @@ ul.address li ul.address-text li a:hover{
 }
 #menu-floating-menu a {
     color: #FFF;
-    margin-right: 30px;
 }
 ul#menu-floating-menu.menu{
     width: 100%;
     height: 50px;
     margin: 0;
-    padding: 0px;
+    padding: 5px;
     font-size: 1em;
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #008B8B;
@@ -142,7 +141,7 @@ ul#menu-floating-menu.menu{
     width: 100%;
 }
 
-.top-nav.wow {
+.collapse navbar-collapse {
     overflow: hidden;
 }
 
@@ -163,6 +162,10 @@ p, li {
     font-size: 1.5em;
     color: #999;
     line-height: 1.8em;
+    margin-left: 5px;
+}
+a.scroll {
+    margin-left: 20px;
 }
 li {
     text-align: left;
@@ -848,7 +851,7 @@ h3.title {
     padding: 3em 0;
 }
 @media(max-width:767px){
-.menu-toggle {
+.navbar-header {
     float: none;
     width: 100%;
     text-align: center;
