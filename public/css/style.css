@@ -164,6 +164,18 @@ h6 {
     line-height: 1.8em;
     text-align: left;
 }
+
+p.about {
+  font-size: 1.25em;
+  padding: 0;
+  margin: 10px;
+}
+button.btn.btn-info.resume {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  width: 50%
+  height: 100px;
+}
 .about-right {
     padding-left: 5em;
 }
