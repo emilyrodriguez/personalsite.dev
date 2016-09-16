@@ -1,9 +1,3 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 body{
   margin:0;
   font-family: 'Roboto Condensed', sans-serif;
@@ -73,9 +67,9 @@ body a:hover{
     border-width: 10px 10px 0 10px;
     border-color: #F3E000 transparent transparent transparent;
 }
-.header-right h6 {
-    font-size: 1em;
-    color: #C7C7C7;
+.header-right h3 {
+    font-size: 1.5em;
+    color: #FFF;
     margin-top: 0.8em;
     letter-spacing: 6px;
 }
@@ -770,6 +764,12 @@ ul.nav.menu li a {
 h3.title {
     font-size: 3.5em;
     margin-bottom: 0.6em;
+}
+h3#about {
+  color: #FFF !important;
+  padding: 0;
+  letter-spacing: 6px;
+  margin-top: 5px;
 }
 .about-left {
     float: left;
