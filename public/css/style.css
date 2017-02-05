@@ -1,67 +1,4 @@
-.bg-lightgray, .skillData-Wrapper {
-    background-color: #ddd;
-}
-.skillData-Wrapper {
-    width: 100%;
-}
-
-#skillgraphWrapper-break {
-  display: inline-block;
-  position: relative;
-  width: 100%; }
-
-#skillgraphWrapper-break:after {
-  margin-left: 85px;
-  content: '';
-  position: absolute;
-  height: 100%;
-  width: -moz-calc(100% - 85px + 15px);
-  width: -webkit-calc(100% - 85px + 15px);
-  width: calc(100% - 85px + 15px);
-  top: 0;
-  left: 0;
-  background: linear-gradient(to right, #000 2px, transparent 2px);
-  background-size: 10%;
-  background-color: rgba(255, 0, 0, 0.2); }
-
-#skillgraph {
-  padding: 1em; }
-
-.skill-row-break {
-  border-color: red;
-  border-width: 2px;
-  border-style: solid; }
-
-.skill-row {
-  margin: 0 0 20px 0; }
-
-.skillLabel {
-  float: left;
-  width: 100%;
-  color: black; }
-
-.skillData, .skillData-Wrapper {
-  line-height: 0.1 0.7em;
-  height: 0.1 0.7em;
-  width: .1em;
-  float: left;
-  color: white;
-  text-align: center; }
-
-.skillData-Wrapper {
-  width: 100%; }
-
-.bg-blue {
-  background-color: #0f434c; }
-
-.bg-red {
-  background-color: red; }
- 
- .bg-rust {
-    background-color: #33a4c9;
-}
-  
- /* section classes */
+/* section classes */
 .sectionTitle {
     padding: 0 0 0px 70px;
     margin: 50px 0;
@@ -293,6 +230,9 @@ button.btn.btn-info.resume {
 /*--//about--*/
 /*--work--*/
 .work {
+	background: #000;
+}
+.portfolio {
 	background: #000;
 }
 .work-left {
@@ -727,9 +667,9 @@ div#contact.welcome.contact {
 	padding: 2em 0;
 	margin-top: 10px;
 	text-align: center;
-	background: #1F1F1F;
+	background: #000;
 	margin-bottom: -80px;
-	box-shadow: 0px 100px 0px 100px #1F1F1F;
+	box-shadow: 0px 100px 0px 100px #000;
 }
 .footer p {
 	color: #fff;
@@ -1185,55 +1125,6 @@ ul.nav.menu li a {
 		width: 0px;
 	}
 	.contact-form input[type="submit"] {
-		font-size: 0.9em;
-	}
-}
-@media(max-width:320px){
-	.banner-info {
-		padding: 1em 0;
-	}
-	.header-left {
-		width: 50%;
-	}
-	.header-right h1 {
-		font-size: 1.8em;
-	}
-	.header-right h6 {
-		letter-spacing: 1px;
-	}
-	ul.address li ul.address-text li {
-		font-size: 0.9em;
-	}
-	ul.address li ul.address-text li:nth-child(1) {
-		width: 25%;
-	}
-	ul.nav.menu li a {
-		padding: 0.6em 1.5em;
-		font-size: 1em;
-	}
-	.about, .work, .education, .skills, .portfolio, .contact {
-		padding: 1em 0;
-	}
-	h3.title {
-		font-size: 2em;
-	}
-	.progress {
-		height: 7px;
-	}
-	.bar-grids {
-		padding: 0;
-	}
-	.bar-grids h6 {
-		font-size: 0.9em;
-	}
-	.resp-tab-item {
-		padding: 0.6em 1em;
-		font-size: 0.9em;
-	}
-	.contact-form input[type="text"] {
-		font-size: 0.9em;
-	}
-	.contact-form textarea {
 		font-size: 0.9em;
 	}
 }
