@@ -230,11 +230,11 @@ button.btn.btn-info.resume {
 /*--//about--*/
 /*--work--*/
 .work {
-	background: #000;
+	background: #FFF;
 }
-.portfolio {
+/*.portfolio {
 	background: #000 !important;
-}
+}*/
 .work-left {
 	text-align: right;
 	padding: 3em 5em 0 0;
