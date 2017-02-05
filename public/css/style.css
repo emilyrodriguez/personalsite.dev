@@ -233,7 +233,7 @@ button.btn.btn-info.resume {
 	background: #000;
 }
 .portfolio {
-	background: #000;
+	background: #000 !important;
 }
 .work-left {
 	text-align: right;
