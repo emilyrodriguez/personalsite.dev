@@ -13,7 +13,7 @@ body a{
 }
 h1,h2,h3,h4,h5,h6{
   margin:0; 
-  font-family: 'Overlock', cursive;
+/*  font-family: 'Overlock', cursive;*/
 }
 p{
   margin:0;
@@ -114,7 +114,7 @@ ul.nav.navbar {
 ul.nav.navbar li a {
 	color: #fff;
 	font-size: 1.2em;
-	font-family: 'Overlock', cursive;
+	/*font-family: 'Overlock', cursive;*/
 }
 ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
 	color: #008B8B;
@@ -633,9 +633,11 @@ div#contact.welcome.contact {
 /*--footer--*/
 .footer {
 	padding: 2em 0;
+	margin-top: 10px;
 	text-align: center;
 	background: #1F1F1F;
 	margin-bottom: -80px;
+	box-shadow: 0px 100px 0px 100px #1F1F1F;
 }
 .footer p {
 	color: #fff;
